@@ -1,0 +1,1 @@
+the size devopsdockeruh/simple-web-service:alpine(15.7 MB) much smaller than devopsdockeruh/simple-web-service:ubuntu(82.99 MB) but the secret message is the same
