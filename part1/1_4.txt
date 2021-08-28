@@ -1,0 +1,6 @@
+command use 
+docker run -it --name web ubuntu bash -c 'apt-get update; apt-get install curl; echo "Input_wwebsite:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+probelems 
+    first curl is not installed by defult of i have to add "apt-get update; apt-get install curl;" in the shell script before it runs the curl command and
+    second the space in the echo command text was was stopping the rest of the command from executing i replaced it with underscore "Input_website:"
